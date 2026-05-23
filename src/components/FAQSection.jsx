@@ -2,49 +2,61 @@ const faqs = [
   {
     question: '¿Cómo funciona el soporte remoto?',
     answer:
-      'Nos conectamos de forma segura mediante herramientas de asistencia remota para diagnosticar y resolver incidencias sin necesidad de visitas físicas.'
+      'Nos conectamos mediante herramientas seguras de acceso remoto para diagnosticar y resolver incidencias sin necesidad de visitas presenciales.'
   },
 
   {
-    question: '¿Es seguro permitir acceso remoto a los equipos?',
+    question: '¿Es seguro permitir acceso remoto?',
     answer:
-      'Sí. Utilizamos conexiones cifradas y el acceso se realiza únicamente con autorización del cliente, quien puede supervisar toda la sesión en tiempo real.'
+      'Sí. Todas las conexiones se realizan de forma cifrada y únicamente con autorización del cliente.'
   },
 
   {
-    question: '¿Qué tipo de problemas pueden resolver de forma remota?',
+    question: '¿Qué tipo de problemas pueden resolver?',
     answer:
-      'Resolución de errores de software, configuración de correos corporativos, problemas de red, acceso a servidores, impresoras, backups, Microsoft 365, rendimiento de equipos y soporte general de infraestructura IT.'
+      'Soporte de sistemas, correos corporativos, Microsoft 365, redes, backups, impresoras, servidores y soporte general de infraestructura IT.'
   },
 
   {
     question: '¿Trabajan únicamente con empresas?',
     answer:
-      'Nuestro enfoque principal está orientado a PyMEs, profesionales y empresas que necesitan soporte IT confiable, mantenimiento continuo y soluciones digitales.'
+      'Nuestro enfoque principal está orientado a PyMEs, profesionales y empresas que necesitan soporte técnico confiable y continuidad operativa.'
   },
 
   {
-    question: '¿Ofrecen planes mensuales de mantenimiento?',
+    question: '¿Ofrecen mantenimiento mensual?',
     answer:
-      'Sí. Contamos con planes de soporte y mantenimiento remoto que incluyen monitoreo, asistencia técnica, seguridad, backups y soporte prioritario.'
+      'Sí. Disponemos de planes mensuales que incluyen monitoreo, soporte remoto, backups, mantenimiento preventivo y asistencia prioritaria.'
   },
 
   {
-    question: '¿Cuánto tiempo tardan en responder una solicitud?',
+    question: '¿Brindan soporte urgente?',
     answer:
-      'Priorizamos respuestas rápidas para minimizar tiempos de inactividad y garantizar continuidad operativa en entornos de trabajo críticos.'
+      'Sí. Priorizamos incidencias críticas para minimizar tiempos de inactividad y mantener la operación funcionando correctamente.'
   },
 
   {
     question: '¿Pueden ayudar con Microsoft 365 y Google Workspace?',
     answer:
-      'Sí. Realizamos configuración, migración, administración y soporte de plataformas cloud corporativas como Microsoft 365 y Google Workspace.'
+      'Sí. Realizamos configuración, migraciones, administración y soporte de plataformas cloud empresariales.'
   },
 
   {
-    question: '¿Qué incluye el mantenimiento preventivo?',
+    question: '¿También desarrollan sitios web y automatizaciones?',
     answer:
-      'Incluye revisión de sistemas, optimización de rendimiento, actualización de software, monitoreo de seguridad y verificación de backups y servicios críticos.'
+      'Sí. Diseñamos plataformas modernas, automatizamos procesos e integramos herramientas digitales para optimizar operaciones empresariales.'
+  },
+
+  {
+    question: '¿Trabajan de forma presencial?',
+    answer:
+      'Nuestro modelo principal es remoto, permitiendo brindar asistencia rápida, segura y eficiente.'
+  },
+
+  {
+    question: '¿Cómo puedo solicitar una asistencia?',
+    answer:
+      'Podés contactarnos mediante WhatsApp, formulario web o agendando una reunión inicial desde la plataforma de reservas.'
   }
 ];
 
@@ -55,10 +67,6 @@ export default function FAQSection() {
       <div className="container">
 
         <div className="section-header">
-
-          <span>
-            
-          </span>
 
           <h2>
             Preguntas Frecuentes

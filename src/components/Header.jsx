@@ -12,12 +12,10 @@ function Header() {
         </h2>
 
         <p>
-          Más de 15 años impulsando la evolución tecnológica de 
-          empresas y profesionales mediante soporte remoto, 
-          soluciones cloud, desarrollo web, correo corporativo y 
-          herramientas digitales orientadas a optimizar procesos, 
-          mejorar la productividad y garantizar entornos tecnológicos 
-          seguros, modernos y eficientes.
+          Más de 12 años impulsando la evolución tecnológica de empresas 
+          y profesionales mediante soporte remoto, soluciones cloud, desarrollo 
+          web y herramientas digitales orientadas a optimizar procesos, mejorar la productividad 
+          y garantizar entornos tecnológicos seguros y eficientes
         </p>
 
         <a className="btn-primary" href="#contacto">
